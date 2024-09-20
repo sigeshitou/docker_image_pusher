@@ -2,3 +2,6 @@
 opengrok/docker
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+nginx:stable-alpine
+eclipse-temurin:8u392-b08-jre-centos7
