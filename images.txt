@@ -4,16 +4,25 @@
 # 前后端基础镜像
 nginx:stable-alpine
 nginx:latest
+eclipse-temurin:8u362-b09-jre
 eclipse-temurin:8u392-b08-jre-centos7
+eclipse-temurin:8u412-b08-jre-centos7
+
+# ARM 架构
+--platform=linux/arm64 nginx:stable-alpine
+--platform=linux/arm64/v8 eclipse-temurin:8u392-b08-jre-centos7
+--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jre-centos7
 
 # 环境服务镜像
-mongo:latest
+mongo
+mysql:5.7
+
 bitnami/redis
 bitnami/rabbitmq
 bitnami/minio
-mysql:5.7
-dm8_single:dm8_20240715_rev232765_x86_rh6_64
-dm9:latest
+bitnami/mongodb
+bitnami/mysql
+
 
 # 其他
 portainer/portainer-ce:latest
