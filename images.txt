@@ -8,7 +8,7 @@ eclipse-temurin:8u362-b09-jre
 eclipse-temurin:8u392-b08-jre-centos7
 eclipse-temurin:8u412-b08-jre-centos7
 
-# ARM 架构
+## ARM 架构
 --platform=linux/arm64 nginx:stable-alpine
 --platform=linux/arm64/v8 eclipse-temurin:8u392-b08-jre-centos7
 --platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jre-centos7
@@ -23,7 +23,17 @@ bitnami/minio
 bitnami/mongodb
 bitnami/mysql
 
+## ARM 架构
+--platform=linux/arm64 mongo
+--platform=linux/arm64 mysql:5.7
+--platform=linux/arm64 bitnami/redis
+--platform=linux/arm64 bitnami/rabbitmq
+--platform=linux/arm64 bitnami/minio
+--platform=linux/arm64 bitnami/mysql
 
 # 其他
-portainer/portainer-ce:latest
+portainer/portainer-ce
 jeessy/ddns-go
+
+## ARM 架构
+--platform=linux/arm64 portainer/portainer-ce
