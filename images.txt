@@ -3,5 +3,16 @@ opengrok/docker
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
+# 前后端基础镜像
 nginx:stable-alpine
 eclipse-temurin:8u392-b08-jre-centos7
+
+# 环境服务镜像
+mongo:latest
+bitnami/redis
+bitnami/rabbitmq
+bitnami/minio:latest
+mysql:5.7
+
+# 其他
+jeessy/ddns-go
