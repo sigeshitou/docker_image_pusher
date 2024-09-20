@@ -15,7 +15,9 @@ eclipse-temurin:8u412-b08-jre-centos7
 
 # 环境服务镜像
 mongo
+### mysql 5.7 没有ARM架构镜像
 mysql:5.7
+mysql:8.0
 
 bitnami/redis
 bitnami/rabbitmq
@@ -25,7 +27,7 @@ bitnami/mysql
 
 ## ARM 架构
 --platform=linux/arm64 mongo
---platform=linux/arm64 mysql:5.7
+--platform=linux/arm64 mysql:8.0
 --platform=linux/arm64 bitnami/redis
 --platform=linux/arm64 bitnami/rabbitmq
 --platform=linux/arm64 bitnami/minio
