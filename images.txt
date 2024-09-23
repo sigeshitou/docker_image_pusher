@@ -1,6 +1,8 @@
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
+directus/directus:10.13.1
+
 # 前后端基础镜像
 nginx:stable-alpine
 nginx:latest
@@ -39,7 +41,7 @@ portainer/portainer-ce
 jeessy/ddns-go
 fradelg/mysql-cron-backup
 directus/directus:latest
-directus/directus:10
+
 
 ## ARM 架构
 --platform=linux/arm64 portainer/portainer-ce
