@@ -1,6 +1,7 @@
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
+node:18.14.2-slim
 directus/directus:10.13.1
 
 # 前后端基础镜像
