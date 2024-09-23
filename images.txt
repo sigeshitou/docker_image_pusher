@@ -39,6 +39,7 @@ portainer/portainer-ce
 jeessy/ddns-go
 fradelg/mysql-cron-backup
 directus/directus:latest
+directus/directus:10
 
 ## ARM 架构
 --platform=linux/arm64 portainer/portainer-ce
