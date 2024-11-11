@@ -2,6 +2,8 @@
 --platform=linux/arm64 xiaoyaliu/alist
 tomcat:8.5.32
 node:18.14.2-slim
+node:lts-slim
+node:latest
 directus/directus:10.13.1
 
 # 前后端基础镜像
