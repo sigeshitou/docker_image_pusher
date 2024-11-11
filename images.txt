@@ -10,6 +10,7 @@ nginx:latest
 eclipse-temurin:8u362-b09-jre
 eclipse-temurin:8u392-b08-jre-centos7
 eclipse-temurin:8u412-b08-jre-centos7
+eclipse-temurin:21.0.4_7-jre
 
 ## ARM 架构
 --platform=linux/arm64 nginx:stable-alpine
