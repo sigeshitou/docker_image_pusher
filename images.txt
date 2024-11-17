@@ -44,6 +44,16 @@ bitnami/mysql
 
 # 其他
 portainer/portainer-ce
+portainer/portainer-ce:latest
+portainer/portainer-ce:2.21.4
+portainer/portainer-ce:linux-arm64-2.21.4
+portainer/portainer-ce:2.21.4-linux-amd64-alpine
+portainer/portainer-ce:linux-amd64-2.21.4-alpine
+
+portainer/portainer-ce:alpine
+
+portainer/portainer-ce:lts
+
 jeessy/ddns-go
 fradelg/mysql-cron-backup
 directus/directus:latest
