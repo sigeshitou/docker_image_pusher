@@ -6,8 +6,8 @@ node:lts-slim
 node:latest
 directus/directus:10.13.1
 keking/kkfileview-jdk:latest
-keking/kkfileview-base:4.4.0
-keking/kkfileview-base:latest
+
+keking/kkfileview-base
 # 前后端基础镜像
 nginx:stable-alpine
 nginx:latest
