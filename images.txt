@@ -6,6 +6,7 @@ node:lts-slim
 node:latest
 directus/directus:10.13.1
 keking/kkfileview-jdk:latest
+keking/kkfileview-jdk:4.3.0
 
 keking/kkfileview-base
 # 前后端基础镜像
@@ -15,6 +16,7 @@ eclipse-temurin:8u362-b09-jre
 eclipse-temurin:8u392-b08-jre-centos7
 eclipse-temurin:8u412-b08-jre-centos7
 eclipse-temurin:21.0.4_7-jre
+eclipse-temurin:21.0.5_11-jre
 
 ## ARM 架构
 --platform=linux/arm64 nginx:stable-alpine
