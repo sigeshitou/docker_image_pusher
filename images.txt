@@ -57,6 +57,9 @@ portainer/portainer-ce:alpine
 
 portainer/portainer-ce:lts
 6053537/portainer-ce:latest
+6053537/portainer-ce:2.19.5
+6053537/portainer-ce:2.19.4
+
 newrain857/portainer-ce-cn:latest
 
 jeessy/ddns-go
