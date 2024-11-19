@@ -8,7 +8,6 @@ directus/directus:10.13.1
 keking/kkfileview-jdk:latest
 keking/kkfileview-jdk:4.3.0
 
-keking/kkfileview-base
 # 前后端基础镜像
 nginx:stable-alpine
 nginx:latest
